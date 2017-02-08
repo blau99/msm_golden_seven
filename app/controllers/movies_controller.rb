@@ -25,7 +25,7 @@ class MoviesController < ApplicationController
     @id = m.id
     @year = m.year
     @duration = m.duration
-    @desciption = m.description
+    @description = m.description
     @image_url = m.image_url
     render("movies/edit_form.html.erb")
   end
